@@ -1,0 +1,27 @@
+{
+  "name": "chat-base",
+  "version": "1.0.0",
+  "description": "chat-app graphql powered",
+  "main": "server.js",
+  "scripts": {
+    "dev:server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vieiralc/react-chat-app.git"
+  },
+  "author": "Lucas Vieira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vieiralc/react-chat-app/issues"
+  },
+  "homepage": "https://github.com/vieiralc/react-chat-app#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1",
+    "json-server": "^0.14.2",
+    "nodemon": "^1.18.10"
+  }
+}
