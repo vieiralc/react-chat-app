@@ -1,5 +1,4 @@
 import mongoose from "mongoose";
-
 const Schema = mongoose.Schema;
 
 // User Schema
@@ -20,6 +19,13 @@ const UserSchema = new Schema({
     password: {
         type: String,
         required: true
+    },
+    avatar: {
+        type: String
+    },
+    date: {
+        type: Date,
+        default: Date.now
     }
 });
 
