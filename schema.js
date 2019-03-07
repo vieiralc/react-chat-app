@@ -8,13 +8,6 @@ const {
     GraphQLNonNull
 } = require('graphql');
 
-// // Hardcoded data
-// const customers = [
-//     { id: '1', name: 'John Doe', email: 'johndoe@gmail.com', age: 35 },
-//     { id: '2', name: 'Sara Willians', email: 'sarawill@gmail.com', age: 27 },
-//     { id: '3', name: 'Bojack Horseman', email: 'bojack@gmail.com', age: 36 }
-// ];
-
 // Customer Type
 const CustomerType = new GraphQLObjectType({
     name: 'Customer',
