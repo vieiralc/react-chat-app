@@ -1,18 +1,6 @@
 {
   "customers": [
     {
-      "id": "1",
-      "name": "John Doe",
-      "email": "johndoe@gmail.com",
-      "age": 35
-    },
-    {
-      "id": "2",
-      "name": "Sara Willians",
-      "email": "sarawill@gmail.com",
-      "age": 27
-    },
-    {
       "id": "3",
       "name": "Bojack Horseman",
       "email": "bojack@gmail.com",
@@ -34,7 +22,13 @@
       "name": "Harry White",
       "email": "harry@outlook.com",
       "age": 54,
-      "id": "lMM45V0"
+      "id": "uqL2EJK"
+    },
+    {
+      "name": "John Doe",
+      "email": "john@outlook.com",
+      "age": 33,
+      "id": "g1iRb18"
     }
   ]
 }
