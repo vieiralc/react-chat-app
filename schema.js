@@ -70,6 +70,23 @@ const mutation = new GraphQLObjectType({
                 .then(res => res.data);
             }
         },
+        updateCustomer: {
+            type: CustomerType,
+            args: {
+                id: {type: new GraphQLNonNull(GraphQLString)},
+                name: {type: GraphQLString},
+                email: {type: GraphQLString},
+                age: {type: GraphQLInt}
+            },
+            resolve(parentValue, args) {
+                return axios.patch(`http://localhost:3000/customers/${args.id}`, {
+                    name: args.name,
+                    email: args.email,
+                    age: args.age
+                })
+                .then(res => res.data);
+            }
+        },
         deleteCustomer: {
             type: CustomerType,
             args: {
